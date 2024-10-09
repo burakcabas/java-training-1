@@ -12,7 +12,7 @@ public class water extends picture{
         water nesne = new water();
         int a = price;
         int b = nesne.getOverpriced();
-        nesne.setOverpriced(44);
+        nesne.setOverpriced(44);   
 
         nesne.voice();
         nesne.game();
