@@ -1,5 +1,7 @@
 package burak;
 
+import static java.lang.Math.*;
+
 class smart_television extends television implements cleaning {
 
     @Override
@@ -32,6 +34,12 @@ class smart_television extends television implements cleaning {
         ürün1.open();
         ürün1.open(1);
         ürün1.clean();
+
+        boolean isItThis = true;
+
+        System.out.println(isItThis);
+
+        System.out.println(max(5,223));
 
     }
 
