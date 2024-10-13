@@ -103,6 +103,7 @@ public class LoopTraining {
                 System.out.println(i + " " + j);
             }
         }
+        int t =0;
 
     }
 }
