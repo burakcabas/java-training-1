@@ -93,5 +93,16 @@ public class LoopTraining {
 
         }*/
 
+
+        crazyloop:
+        for(int i = 0; i<10;i++){
+            for(int j = 0; j<10;j++){
+                if(j == 4){
+                    break crazyloop;
+                }
+                System.out.println(i + " " + j);
+            }
+        }
+
     }
 }
