@@ -19,7 +19,7 @@ public class ExceptionTraining1 {
 
             randomArrayList.get(3);
         }
-        catch(Exception e){
+        catch(IndexOutOfBoundsException e){
             System.out.println("Error: " + e.getMessage());
         }
         finally{
