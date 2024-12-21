@@ -46,6 +46,11 @@ public class one {
 
         System.out.println(d + " " + i);
 
+        int sayi = 15;
+        String yazi = "46das";
+        String sonuc = sayi + yazi;
+        System.out.println(sonuc);
+
     }
 
 }
