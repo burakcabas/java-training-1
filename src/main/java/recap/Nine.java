@@ -15,6 +15,11 @@ public class Nine {
         myArrayList.add("48");
         myArrayList.add("50");
 
+        myArrayList.add(4,"Element");
+
+        System.out.println(myArrayList);
+        System.out.println("************");
+
         myArrayList.removeLast();
 
         System.out.println(myArrayList.get(1));
