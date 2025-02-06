@@ -36,7 +36,7 @@ public class ArrayListSorting {
     }
 
     System.out.println("Sorting...");
-    Collections.sort(cars);
+    Collections.sort(cars, Collections.reverseOrder());
 
     System.out.println("After sorting:");
     for(String a:cars){
